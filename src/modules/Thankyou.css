@@ -1,0 +1,13 @@
+.Thanks
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Thanks img
+{
+    height: 80px;
+    width: 80px;
+    margin-left: 110px;
+}

@@ -1,0 +1,54 @@
+.card-display {
+    margin-top: 150px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction:column ;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .bg-front {
+    background-image: url('../images/bg-card-front.png');
+    flex-direction: column;
+    width: 447px;
+    height: 245px;
+    background-size: cover;
+    padding: 10px;
+  }
+  
+  .Number
+  {
+    margin-top: 120px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    font-size: 35px;
+    color: white;
+  }
+  
+  .Others
+  {
+    display: flex;
+    margin-left: 15px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+  }
+
+  .bg-back {
+    background-image: url('../images/bg-card-back.png');
+    width: 447px;
+    height: 245px;
+    background-size: cover;
+    padding: 10px;
+    margin-left: 100px;
+  }
+
+  .Cvv
+  {
+   margin-top: 111px;
+   margin-left: 380px;
+   color: white;
+  }
+
